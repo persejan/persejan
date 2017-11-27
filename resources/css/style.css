@@ -396,3 +396,11 @@ header {
 .js--wp-5.animated {
     opacity: 1;
 }
+
+.scale:hover {
+    transform: scale(1.1);
+}
+
+.scale {
+    transition: transform 0.5s;
+}
